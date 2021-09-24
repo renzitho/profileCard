@@ -1,0 +1,63 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+.containerAll {
+  height: 100vh;
+  width: 100vw;
+  background: #19a2ae;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.card {
+  height: 26rem;
+  width: 20rem;
+  border: solid 1px red;
+  border-radius: 5%;
+  background: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 50;
+  font-size: 18px; }
+  .card .backgroundCard {
+    position: absolute; }
+  .card .containerInfo {
+    position: absolute;
+    bottom: 2rem;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .card .containerInfo .mainInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .card .containerInfo .mainInfo img {
+        width: 8rem;
+        border-radius: 50%;
+        border: solid 0.4rem white; }
+      .card .containerInfo .mainInfo div {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0; }
+        .card .containerInfo .mainInfo div h2 {
+          font-weight: 700; }
+    .card .containerInfo .secondaryInfo {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 2rem;
+      justify-content: space-around; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box; }
+
+.centradoX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -4,29 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Profile card component</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { display: none; font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="containerAll">
+    <!-- <img class="decorationTop" src="./images/bg-pattern-top.svg" alt="backgroundDecoration">
+    <img class="decorationBottom" src="./images/bg-pattern-bottom.svg" alt="backgroundDecoration"> -->
+    <article class="card">
+      <img class="backgroundCard" src="./images/bg-pattern-card.svg" alt="Background card">
+      <div class="containerInfo">
+        <div class="mainInfo">
+          <img src="images/image-victor.jpg" alt="Profile picture">
+          <div>
+            <h2>Victor Crest</h2>
+            <p>26</p>
+          </div> 
+          <p>London</p>
+        </div>
+        <div class="secondaryInfo">
+          <div class="followers centradoX">
+            <p>80K</p>
+            <p>Followers</p>
+          </div>
+          <div class="likes centradoX">
+            <p>803K</p>
+            <p>Likes</p>
+          </div>
+          <div class="photos centradoX">
+            <p>1.4K</p>
+            <p>Photos</p>
+          </div>
+        </div>  
+      </div>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/renzitho">renzitho_yo</a>.
+    </div>
+    </main>
 </body>
 </html>
