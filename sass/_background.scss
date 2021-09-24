@@ -6,10 +6,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    .decoration{
+        height: 48rem;
+    }
     .decorationTop{
-
+        position: absolute;
+        top: -50vh;
+        right: 50vw;
+        transform: rotate(45deg);
     }
     .decorationBottom{
-
+        position: absolute;
+        bottom: -50vh;
+        left: 50vw;
     }
 }

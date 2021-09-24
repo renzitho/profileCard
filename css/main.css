@@ -6,7 +6,19 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
+  .containerAll .decoration {
+    height: 48rem; }
+  .containerAll .decorationTop {
+    position: absolute;
+    top: -50vh;
+    right: 50vw;
+    transform: rotate(45deg); }
+  .containerAll .decorationBottom {
+    position: absolute;
+    bottom: -50vh;
+    left: 50vw; }
 
 .card {
   height: 26rem;
