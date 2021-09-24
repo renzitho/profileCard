@@ -17,7 +17,8 @@
   overflow: hidden;
   position: relative;
   z-index: 50;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif; }
   .card .backgroundCard {
     position: absolute; }
   .card .containerInfo {
@@ -27,11 +28,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    color: #6a6f81; }
     .card .containerInfo .mainInfo {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      margin-bottom: 2rem; }
       .card .containerInfo .mainInfo img {
         width: 8rem;
         border-radius: 50%;
@@ -39,15 +42,26 @@
       .card .containerInfo .mainInfo div {
         display: flex;
         align-items: center;
-        margin: 2rem 0; }
+        margin: 1rem 0; }
         .card .containerInfo .mainInfo div h2 {
-          font-weight: 700; }
+          font-weight: 700;
+          font-size: 18px;
+          margin-right: 0.5rem;
+          color: #2d3248; }
     .card .containerInfo .secondaryInfo {
+      border-top: 1px solid #969696;
       display: flex;
       flex-direction: row;
       width: 100%;
-      margin-top: 2rem;
-      justify-content: space-around; }
+      padding-top: 2rem;
+      justify-content: space-around;
+      font-size: 11px; }
+      .card .containerInfo .secondaryInfo span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #2d3248; }
+      .card .containerInfo .secondaryInfo p {
+        letter-spacing: 3px; }
 
 * {
   padding: 0;
