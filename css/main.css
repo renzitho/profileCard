@@ -55,7 +55,7 @@
         display: flex;
         align-items: center;
         margin: 1rem 0; }
-        .card .containerInfo .mainInfo div h2 {
+        .card .containerInfo .mainInfo div h1 {
           font-weight: 700;
           font-size: 18px;
           margin-right: 0.5rem;
@@ -90,12 +90,15 @@
   font-size: 14px;
   text-align: center;
   position: absolute;
-  bottom: 1rem;
+  bottom: 0.5rem;
   max-width: 60vw; }
 
 .attribution a {
   color: #e9e9e9;
-  text-decoration: none;
+  text-decoration: underline;
   letter-spacing: 2px; }
+
+.attribution a:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
